@@ -1849,13 +1849,13 @@ form label {
 
 @media only screen and (min-width: 100px) {
   .header-image {
-    background-image: url("../images/IMG_1813 - small.jpg");
+    background-image: url("../images/IMG_1813 - small.jpeg");
   }
 }
 
 @media only screen and (min-width: 768px) {
   .header-image {
-    background-image: url("../images/IMG_1813.jpg");
+    background-image: url("../images/IMG_1813.jpeg");
   }
 }
 
