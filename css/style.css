@@ -4,13 +4,13 @@
 * 	Template Style 
 *
 * ======================================================= */
-
+@import url('https://fonts.googleapis.com/css?family=Abel');
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Abel", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -63,7 +63,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Abel", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -351,6 +351,8 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 400px;
   }
 }
+
+
 
 #fh5co-counter,
 #fh5co-event {
@@ -790,7 +792,6 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   left: 0;
   top: .05em;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1474,7 +1475,6 @@ form label {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1646,7 +1646,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Abel", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1840,12 +1840,28 @@ form label {
 }
 
 @media only screen and (min-width: 100px) {
+  .events-height{
+    height: 100% !important;
+  }
   .header-image {
     background-image: url("../images/IMG_1813 - small.jpeg");
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
+  .events-height{
+    height: 100% !important;
+  }
+  .header-image {
+    background-image: url("../images/IMG_1813 - medium.jpeg");
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .events-height{
+    padding-top: 2% !important;
+    height: 35em !important;
+  }
   .header-image {
     background-image: url("../images/IMG_1813.jpeg");
   }
