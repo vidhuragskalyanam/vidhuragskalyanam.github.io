@@ -1848,7 +1848,7 @@ form label {
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .events-height{
     height: 100% !important;
   }
@@ -1866,5 +1866,4 @@ form label {
     background-image: url("../images/IMG_1813.jpeg");
   }
 }
-
 /*# sourceMappingURL=style.css.map */
